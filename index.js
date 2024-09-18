@@ -75,7 +75,7 @@ const server = http.createServer(function(req, res) {
     });
 });
 
-const PORT = 3001;
+const PORT = 80;
 server.listen(PORT, () => {
-    console.log(`Servidor en funcionamiento en el puerto: http://localhost:${PORT}`);
+    console.log(`Servidor en funcionamiento en el puerto: ${PORT}`);
 });
